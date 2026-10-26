@@ -1,0 +1,14 @@
+{
+  "name": "sqlprac",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/src/index.mjs",
+    "dev:web": "npm --prefix web run dev",
+    "build:web": "npm --prefix web run build",
+    "seed": "node server/src/seed.mjs",
+    "test": "node server/src/selftest.mjs",
+    "verify": "node server/src/verify.mjs"
+  }
+}

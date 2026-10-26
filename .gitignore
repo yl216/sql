@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+
+# 构建产物
+web/dist/
+dist/
+*.tsbuildinfo
+
+# 环境变量（含数据库密码），复制 .env.example 自行填写
+.env
+.env.*
+!.env.example
+
+# 本地做题记录（含个人草稿和面试成绩）
+server/.data/
+
+# 日志与系统文件
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本地调试脚本与截图（AI 协作时生成的临时文件）
+.workbuddy-ai/
